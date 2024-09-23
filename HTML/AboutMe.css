@@ -1,0 +1,98 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gallery styling */
+  div.gallery {
+    margin: 1px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 35.5%;
+    height: 35.3%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Project section styling */
+  div.a {
+    font-size: 30px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  table td {
+    padding: 10px;
+  }
+  
+  .info-row {
+    font-size: 20px;
+  }
+  
+  /* Style for hr */
+  hr {
+    margin-top: 20px;
+    border: 0;
+    border-top: 3px solid grey;
+  }
+  
+  /* Heading styling */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  /* Social icon animation */
+.social-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2) rotate(10deg);
+  }
+  
+  /* Add some margin between icons */
+  .social-icon {
+    margin-right: 10px;
+  }
+  
